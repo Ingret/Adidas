@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	height: 90px;
+	padding-left: 30px;
+}
+
+.firstnav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+ul.list {
+	display: flex;
+	list-style: none;
+	padding-right: 82px;
+}
+
+.menu-text{
+	font-size: 13px;
+	font-family: Halvetica, Arial, sans-serif;
+	padding-left: 30px;
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+	letter-spacing: 1.87px;
+}
+
+.people{
+	font-weight: 700;
+}
+
+.menu-text:hover{
+	text-decoration: underline;
+}
+
+.shoes{
+	display: flex;
+	justify-content: space-around;
+}
+
+.shoe{
+	width: 226px;
+	height: 226px;
+}
+
+.common{
+	padding-left: 10px;
+	color: #808080;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.name{
+	padding-left: 10px;
+	margin-bottom: 3px;
+	font-family: Halvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+.price{
+	padding-left: 10px;
+	font-family: Halvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+.beauty{
+	padding-bottom: 20px;
+}
+
+.beauty:hover{
+	outline-width: 0.1;
+	outline-color: black;
+	outline-style: solid;
+}
+
+.section{
+	padding: 20px 0;
+}
+
+.popular{
+	font-family: Halvetica, Arial, sans-serif;
+	text-align: center;
+	margin-bottom: 21px;
+	font-weight: bold;
+	font-size: 27px;
+}
+
+.secondnav{
+	background: lightgray;
+	height: 54px;
+	margin: 0 140px;
+}
+
+.list2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	list-style: none;
+	padding-top: 20px;
+}
+
+.tap{
+	font-family: Halvetica, Arial, sans-serif;
+	font-size: 13px;
+	padding-left: 20px;
+	letter-spacing: 2px;
+	color: #3f3f3f ;
+	text-decoration: none;
+}
+
+.tap:hover{
+	color: #a9a9a9;
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #363738;
+	color: #9a9b9b;
+	height: 72px;
+}
